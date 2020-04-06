@@ -1,0 +1,151 @@
+.tpl-main-header .tpl-container {
+  padding: 0 var(--spacing-s);
+}
+
+a.tpl-main-header__link:hover {
+  background: 0;
+}
+
+.tpl-main-header__logo {
+  height: 1.5em;
+}
+
+.tpl-site-nav__links {
+  margin: 0;
+}
+
+.tpl-main-header .tpl-site-nav__item.no-underline::after {
+  content: none;
+}
+
+.tpl-main-header a.tpl-button {
+  padding: 0.5em 1em;
+}
+
+.tpl-main-header a.tpl-button::after {
+  content: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tpl-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.tpl-main > :last-child {
+  flex-grow: 1;
+}
+
+.tpl-footer img {
+  height: 2em;
+}
+
+.notification {
+  color: var(--white);
+  padding: var(--spacing-s);
+}
+
+.tpl-hero {
+  padding: 2em 0;
+}
+
+.tpl-hero h1 {
+  margin: 0;
+}
+
+.tpl-hero.left .tpl-container {
+  align-items: start;
+}
+
+.use-cases {
+  background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #DAEAFE;
+}
+
+.use-cases h2 {
+  font-size: 1.375em;
+  font-weight: 400;
+}
+
+.use-cases__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.use-cases__list .tpl-card {
+  flex: 0 1 31%;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 25em;
+  white-space: normal;
+  text-decoration: none;
+  scroll-snap-align: start;
+}
+
+.use-cases .tpl-card__title {
+  font-size:  1.25em;
+  font-weight: 400;
+}
+
+.use-cases .tpl-card__title strong {
+  color: var(--primary);
+}
+
+.use-cases .covid .tpl-card__title strong {
+  color: var(--danger);
+}
+
+.use-cases .tpl-card__content p {
+  margin-bottom: 0;
+}
+
+.use-cases .card__icon {
+  margin: 0 auto;
+  height: 8em;
+}
+
+.use-cases .tpl-button {
+  margin: auto;
+  background: var(--white);
+}
+
+/* faq */
+.small-hero {
+  padding: 1em 0;
+}
+
+.small-hero .tpl-container {
+  align-items: start;
+}
+
+.tpl-documentation .tpl-container {
+  align-items: start;
+  position: relative;
+}
+
+.tpl-documentation__sidebar {
+  position: sticky;
+  top: 2em;
+}
+
+.tpl-documentation a.tpl-button {
+  color: var(--white);
+  margin-top: 1em;
+}
+
+.tpl-documentation__content {
+  scroll-snap-type: y mandatory;
+}
+
+/* cas d'usage */
+.use-cases .contact {
+  margin-top: 3em;
+}
+
+.use-cases a.tpl-card {
+  text-decoration: none;
+}

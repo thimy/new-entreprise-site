@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include hero.html page=page %}
+<section class="tpl-section tpl-documentation tpl-bg--lightest-grey">
+  <div class="tpl-container">
+    <aside class="tpl-documentation__sidebar">
+      <nav class="tpl-documentation__links">
+        <a class="tpl-documentation__link" href="#quels-sont-les-conditions-pour-obtenir-un-accès-à-api-entreprise-">Conditions pour obtenir un accès</a>
+        <a class="tpl-documentation__link" href="#les-requêtes-multi-origines-cors---cross-origin-resource-sharing-sont-elles-autorisées-">Les requêtes multi-origines (CORS - Cross-Origin Resource Sharing) sont-elles autorisées ?</a>
+        <a class="tpl-documentation__link" href="#le-service-api-entreprise-semble-soudainement-rejeter-vos-requêtes">Le service API Entreprise semble soudainement rejeter vos requêtes.</a>
+        <a class="tpl-documentation__link" href="#quest-ce-quun-code-retour-http-206-">Qu’est-ce qu’un code retour HTTP 206 ?</a>
+        <a class="tpl-documentation__link" href="#je-suis-protégé-par-un-filtre-anti-spam">Je suis protégé par un filtre anti-spam</a>
+        <a class="tpl-button tpl-button--gradient" href="{{ site.baseurl }}{% link pages/demander_un_acces.md %}">Demander un accès</a>
+      </nav>
+    </aside>
+    <div class="tpl-documentation__content">
+      {{ content }}
+    </div>
+  </div>
+</section>
